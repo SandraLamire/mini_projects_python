@@ -6,7 +6,7 @@ Python Tutorial for Beginners (with mini-projects)
 
 # Version Python 3.11.5
 
-## Etpaes : 
+## Etapes : 
 Télécharger python sur python.org et l'installer
 Installer VsCode, l'ouvrir et installer exension python(pylance)
 Créer un dossier sur le pc
