@@ -106,6 +106,32 @@ for action in actions:
 # John sleeps.
 
 
+# value1 = True
+# # while value is equal to while value == True
+# while value1 == True:
+#     print(value1)
+#     # value = False is equal to value = 0
+# Infinite loop
+    
+
+value2 = "y"
+count2 = 0
+# while value is equal to while value == True
+while value2:
+    count2 += 1
+    print(count2)
+    if (count2 == 5):
+        break
+    else:
+        value2 = 0
+        continue
+# print 1 then else then value2 = 0
+# then continue return on line "while"
+# loop2 : value2 = 0 so value2 = False = end of the while
+  
+# If not know if a value is True or False
+print(bool(value2))
+# false after the fisrt loop
 
     
 
