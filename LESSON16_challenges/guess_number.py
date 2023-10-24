@@ -44,7 +44,7 @@ def guess_number(name='PlayerOne'):
         print(f"Game count: {game_count}")
         print(f"{name}'s wins: {player_wins}")
         
-        print(f"Your winning percentage: {player_wins / game_count:.2f}%")
+        print(f"Your winning percentage: {player_wins / game_count * 100:.2f}%")
         
         print(f"\nPlay again, {name}?")
         while True:
