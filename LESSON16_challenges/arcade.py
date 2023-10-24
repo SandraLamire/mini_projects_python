@@ -12,7 +12,7 @@ def play_game(name='PlayerOne'):
         if welcome_back == True:
             line01 = "***************************************"  # Header
             line02 = "*                                     *"  # Re use
-            line03 = f"*   welcome back to the Arcade! 🕹️   *"  # Footer
+            line03 = f"*    Welcome back to the Arcade! 🕹️    *"  # Footer
             print()
             print(f"\t\tHello {name},\n")
             print(line01)
@@ -63,6 +63,5 @@ if __name__ == "__main__":
     print(line02)
     print(line01)
 
-    
     play_game(args.name)
     
