@@ -65,7 +65,7 @@ def guess_number(name='PlayerOne'):
             # si le jeu est lancé depuis Arcade
             else : 
                 return
-    return play_guess_number()        
+    return play_guess_number        
             
 if __name__ == "__main__":
     import argparse
