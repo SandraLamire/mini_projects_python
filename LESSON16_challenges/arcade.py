@@ -10,7 +10,16 @@ def play_game(name='PlayerOne'):
     
     while True:
         if welcome_back == True:
-            print(f"{name}, welcome back to the Arcade! 🕹️ ")
+            line01 = "***************************************"  # Header
+            line02 = "*                                     *"  # Re use
+            line03 = f"*   welcome back to the Arcade! 🕹️   *"  # Footer
+            print()
+            print(f"\t\tHello {name},\n")
+            print(line01)
+            print(line02)
+            print(line03)
+            print(line02)
+            print(line01)
             
         playerchoice = input(
             "\nPlease, choose a game:\n1 = Guess the Number\n2 = Rock, Paper, Scissors\nOr press x to exit the Arcade\n"
@@ -43,9 +52,17 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     
-    print(f"\n{args.name}, welcome to the Arcade! 🕹️ ")
-    
-play_game(args.name)
-    
+    line01 = "***************************************"  # Header
+    line02 = "*                                     *"  # Re use
+    line04 = f"*       welcome to the Arcade! 🕹️      *"  # Footer
+    print()
+    print(f"\t\tHello {args.name},\n")
+    print(line01)
+    print(line02)
+    print(line04)
+    print(line02)
+    print(line01)
 
-
+    
+    play_game(args.name)
+    
