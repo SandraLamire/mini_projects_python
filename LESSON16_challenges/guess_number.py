@@ -22,7 +22,7 @@ def guess_number(name='PlayerOne'):
         computerchoice = int(random.choice("123"))
 
         print(f"\n{name}, you chose {playerchoice}")
-        print(f"\nI was thinking about the number {computerchoice}.\n")
+        print(f"I was thinking about the number {computerchoice}.\n")
         
         player = int(playerchoice)
         computer = int(computerchoice)
