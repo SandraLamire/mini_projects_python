@@ -13,6 +13,7 @@ def guess_number(name='PlayerOne'):
         nonlocal player_wins
         nonlocal game_count
         
+        print("***************************************")
         playerchoice = input(f"\n{name}, guess which number I'm thinking of... 1, 2, or 3\n\n")
         
         if playerchoice not in ["1", "2", "3"]:
