@@ -1,0 +1,46 @@
+FONCTIONNEMENT PYTHON-DOTENV
+
+`python-dotenv` = bibliothèque Python pour charger des variables d'environnement 
+à partir d'un fichier `.env` dans un projet.
+Utilisée pour la configuration des applis Python :
+Permet de stocker des variables sensibles ou de configuration 
+(comme des clés API, des secrets, des paramètres de base de données...) 
+dans un fichier séparé plutôt que dans le code source.
+Rend la gestion de la configuration plus flexible et sécurisée.
+
+Voici comment `python-dotenv` fonctionne :
+
+1. Créer un fichier nommé `.venv` dans le répertoire racine du projet 
+(ou tout autre emplacement de son choix).
+
+2. Dans ce fichier `.env`, définir les variables d'environnement avec leurs valeurs. 
+Par exemple :
+
+   ```
+   API_KEY=your_api_key
+   DATABASE_URL=your_database_url
+   SECRET_KEY=your_secret_key
+   ```
+
+3. Dans votre code Python, utiliser la bibliothèque `python-dotenv` 
+pour charger ces variables d'environnement depuis le fichier `.env`. 
+Pa exemple :
+
+   ```python
+   from dotenv import load_dotenv
+
+   load_dotenv()  # Charge les variables d'environnement du fichier .env
+
+   import os
+
+   api_key = os.getenv("API_KEY")
+   db_url = os.getenv("DATABASE_URL")
+   secret_key = os.getenv("SECRET_KEY")
+   ```
+
+En utilisant `python-dotenv`, on peut garder la configuration séparée du code source
+=  facilite la gestion des paramètres de configuration spécifiques à l'environnement 
+(développement, production, tests, etc.).
+Simplifie aussi le processus de déploiement, car on peut avoir des fichiers `.env` différents 
+pour chaque environnement sans avoir à modifier le code lui-même.
+
