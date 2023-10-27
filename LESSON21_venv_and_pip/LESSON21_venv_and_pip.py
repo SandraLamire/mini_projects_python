@@ -36,7 +36,7 @@
 # (pour le dev mais pas dans git et github)
 # py -m venv .venv
 # lancer l'environnement ( = terminal affiche (.venv) PS C:\...)
-# .venv\Scripts\activate
+#  . .\.venv\Scripts\Activate
 # Si message d'erreur : pas les droits
 # Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
 # py -m venv .venv
