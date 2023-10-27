@@ -20,7 +20,9 @@ Python Tutorial for Beginners (with mini-projects) de @DaveGrayTeachesCode
     * taper quit() pour sortir du langage Python dans le terminal
 
 - Taper venv dans barre de recherche en haut de VsCode pour installer un environnement (.venv s'ajoute au projet)
+- Lancer l'environnement avec py .\venv\Scripts\activate
 - pip install dans le terminal pour installer les packages du requirements.txt
+- Lancer py .\venv\Scripts\deactivate avant de quitter le projet
 
 - Ctrl + n => ouvre un nouveau doc avec langage à choisir
 - PS C:\...\dossier_parent\py hello.py => run le fichier hello.py
