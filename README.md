@@ -2,7 +2,8 @@
 
 Basé sur la vidéo youtube : 
 Python Tutorial for Beginners (with mini-projects) de @DaveGrayTeachesCode
-- https://www.youtube.com/watch?v=qwAFL1597eM
+- Vidéo : https://www.youtube.com/watch?v=qwAFL1597eM
+- Ressources : https://github.com/gitdagray/python-course/tree/main
 
 # Version Python 3.11.5
 
